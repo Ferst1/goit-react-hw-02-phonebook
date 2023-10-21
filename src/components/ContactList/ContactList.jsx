@@ -1,7 +1,6 @@
 import { Contact } from 'components/Contact/Contact';
 import PropTypes from 'prop-types';
 
-
 export function ContactList({ list, onDeleteItem }) {
   return list.map(item => {
     return (
